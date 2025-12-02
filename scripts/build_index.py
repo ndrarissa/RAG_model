@@ -11,8 +11,6 @@ PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if PROJECT_ROOT not in sys.path:
     sys.path.insert(0, PROJECT_ROOT)
 
-
-
 DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'MedQuAD_Dataset_RAG_Scenario.csv')
 INDEX_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'faiss.index')
 IDS_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'ids.npy')
