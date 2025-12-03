@@ -1,5 +1,5 @@
-import streamlit as st
 from src.rag import answer_with_context
+import streamlit as st
 
 st.set_page_config(page_title='RAG Corpus-Only Chat')
 st.title('RAG Chatbot — Corpus Only')
